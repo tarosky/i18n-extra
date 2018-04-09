@@ -14,9 +14,6 @@ env:
   matrix:
   - WP_VERSION=latest WP_MULTISITE=0
   - WP_VERSION=4.7 WP_MULTISITE=0
-  global:
-  - SVN_REPO: https://plugins.svn.wordpress.org/wp-yomigana/
-  - secure: "ow/7zbHLorjUZZh6hZbo61UCqk8Q49JZ5eWu+GMlHSa7qS1ECvhXKjqe9iw1t42W6g6p/JEMJhdPLbzxK1cGk7hUgQjFXaofY1ZRuxkFtRmF3dTYehqdhTIdUmkV/UDnL5dwAt6r4rSd/PrqcmArSn1CdY2D1znIwvMN5QGg9TI="
 matrix:
   include:
   - php: 7.1
